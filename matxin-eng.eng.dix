@@ -1,0 +1,165 @@
+<dictionary>
+    <alphabet/>
+    <sdefs>
+        <sdef n="mi"/>
+    </sdefs>
+    <pardefs>
+        <!-- UPOSTAG -->
+        <pardef n="ADJ">
+            <e><p><l></l><r><s n="mi"/>ADJ</r></p></e>
+        </pardef>
+        <pardef n="ADP">
+            <e><p><l></l><r><s n="mi"/>ADP</r></p></e>
+        </pardef>
+        <pardef n="DET">
+            <e><p><l></l><r><s n="mi"/>DET</r></p></e>
+        </pardef>
+        <pardef n="NOUN">
+            <e><p><l></l><r><s n="mi"/>NOUN</r></p></e>
+        </pardef>
+        <pardef n="NUM">
+            <e><p><l></l><r><s n="mi"/>NUM</r></p></e>
+        </pardef>
+        <pardef n="PRON">
+            <e><p><l></l><r><s n="mi"/>PRON</r></p></e>
+        </pardef>
+        <pardef n="VERB">
+            <e><p><l></l><r><s n="mi"/>VERB</r></p></e>
+        </pardef>
+
+        <!-- feats -->
+        <pardef n="Aspect">
+            <e><p><l></l><r>|Aspect=Imp</r></p></e>
+            <e><p><l></l><r>|Aspect=Perf</r></p></e>
+        </pardef>
+        <pardef n="Mood">
+            <e><p><l></l><r>|Mood=Ind</r></p></e>
+            <e><p><l></l><r>|Mood=Imp</r></p></e>
+            <e><p><l></l><r>|Mood=Sub</r></p></e>
+        </pardef>
+        <pardef n="Number">
+            <e><p><l></l><r>|Number=Sing</r></p></e>
+            <e><p><l></l><r>|Number=Plur</r></p></e>
+        </pardef>
+        <pardef n="Person">
+            <e><p><l></l><r>|Person=1</r></p></e>
+            <e><p><l></l><r>|Person=2</r></p></e>
+            <e><p><l></l><r>|Person=3</r></p></e>
+        </pardef>
+        <pardef n="Tense">
+            <e><p><l></l><r>|Tense=Past</r></p></e>
+            <e><p><l></l><r>|Tense=Pres</r></p></e>
+            <e><p><l></l><r>|Tense=Fut</r></p></e>
+            <e><p><l></l><r>|Tense=Pqp</r></p></e>
+        </pardef>
+        <pardef n="Voice">
+            <e><p><l></l><r>|Voice=Act</r></p></e>
+            <e><p><l></l><r>|Voice=Pass</r></p></e>
+        </pardef>
+
+        <pardef n="Gaul__NOUN">
+            <e>
+                <par n="NOUN"/>
+                <p><l></l><r>|Number=Sing</r></p>
+            </e>
+        </pardef>
+        <pardef n="be__VERB">
+            <e>
+                <p><l>was</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>were</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>was</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>were</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Plur</r></p>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <e>
+                <p><l>being</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Imp|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <e>
+                <p><l>am</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>are</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>is</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>are</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Plur</r></p>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <e>
+                <p><l>be</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <e>
+                <p><l>been</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <e>
+                <p><l>been</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pqp|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+        </pardef>
+    </pardefs>
+    <section id="main" type="standard">
+        <e lm="all"><i>all</i><par n="ADJ"/></e>
+        <e lm="Gaul"><i>Gaul</i><par n="Gaul__NOUN"/></e>
+        <e lm="be"><i></i><par n="be__VERB"/></e>
+        <e lm="divide"><i>divid</i><par n="divide__VERB"/></e>
+        <e lm="into"><i>into</i><par n="ADP"/></e>
+        <e lm="three"><i>three</i><par n="NUM"/></e>
+        <e lm="part"><i>part</i><par n="part__NOUN"/></e>
+        <e lm="the"><i>the</i><par n="DET"/></e>
+        <e lm="first"><i>first</i><par n="ADJ"/></e>
+        <e lm="of"><i>of</i><par n="ADP"/></e>
+        <e lm="which"><i>which</i><par n="PRON"/></e>
+        <e lm="Gauls"><i>Gauls</i><par n="part__NOUN"/></e>
+        <e lm="inhabit"><i>inhabit</i><par n="inhabit__VERB"/></e>
+    </section>
+</dictionary>
