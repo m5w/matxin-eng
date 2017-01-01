@@ -1,1 +1,69 @@
-<generate></generate>
+<generate>
+    <def-rule>
+        <template match="NODE[@UPOSTAG]">
+            <copy>
+                <attribute name="mi">
+                    <value-of select="@UPOSTAG"/>
+                </attribute>
+                <apply-templates select="@*|*"/>
+            </copy>
+        </template>
+    </def-rule>
+    <def-rule>
+        <template match="NODE[@UPOSTAG = 'VERB']">
+            <copy>
+                <apply-templates select="@*|*"/>
+            </copy>
+        </template>
+        <template match="NODE[@UPOSTAG = 'VERB']/@mi">
+            <attribute name="mi">
+                <choose>
+                    <when test="../@VerbForm = 'Part'">
+                        <choose>
+                            <when test="../@Aspect">
+                                <value-of select="concat(., '|Aspect=', ../@Aspect, '|Tense=', ../@Tense, '|VerbForm=Part|Voice=', ../@Voice)"/>
+                            </when>
+                            <otherwise>
+                                <value-of select="concat(., '|Tense=', ../@Tense, '|VerbForm=Part|Voice=', ../@Voice)"/>
+                            </otherwise>
+                        </choose>
+                    </when>
+                    <otherwise>
+                        <choose>
+                            <when test="../@Aspect">
+                                <value-of select="concat(., '|Aspect=', ../@Aspect, '|Mood=', ../@Mood, '|Number=', ../@Number, '|Person=', ../@Person, '|Tense=', ../@Tense, '|VerbForm=', ../@VerbForm, '|Voice=', ../@Voice)"/>
+                            </when>
+                            <otherwise>
+                                <value-of select="concat(., '|Mood=', ../@Mood, '|Number=', ../@Number, '|Person=', ../@Person, '|Tense=', ../@Tense, '|VerbForm=', ../@VerbForm, '|Voice=', ../@Voice)"/>
+                            </otherwise>
+                        </choose>
+                    </otherwise>
+                </choose>
+            </attribute>
+        </template>
+    </def-rule>
+    <def-rule>
+        <template match="NODE[@UPOSTAG = 'NOUN' and @Number]">
+            <copy>
+                <apply-templates select="@*|*"/>
+            </copy>
+        </template>
+        <template match="NODE[@UPOSTAG = 'NOUN' and @Number]/@mi">
+            <attribute name="mi">
+                <value-of select="concat(., '|Number=', ../@Number)"/>
+            </attribute>
+        </template>
+    </def-rule>
+    <def-rule>
+        <template match="NODE[@lem = 'that' and @UPOSTAG = 'DET']">
+            <copy>
+                <apply-templates select="@*|*"/>
+            </copy>
+        </template>
+        <template match="NODE[@lem = 'that' and @UPOSTAG = 'DET']/@mi">
+            <attribute name="mi">
+                <value-of select="concat(., '|Number=', ../@Number)"/>
+            </attribute>
+        </template>
+    </def-rule>
+</generate>

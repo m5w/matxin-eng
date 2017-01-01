@@ -11,6 +11,9 @@
         <pardef n="ADP">
             <e><p><l></l><r><s n="mi"/>ADP</r></p></e>
         </pardef>
+        <pardef n="CCONJ">
+            <e><p><l></l><r><s n="mi"/>CCONJ</r></p></e>
+        </pardef>
         <pardef n="DET">
             <e><p><l></l><r><s n="mi"/>DET</r></p></e>
         </pardef>
@@ -22,6 +25,9 @@
         </pardef>
         <pardef n="PRON">
             <e><p><l></l><r><s n="mi"/>PRON</r></p></e>
+        </pardef>
+        <pardef n="PUNCT">
+            <e><p><l></l><r><s n="mi"/>PUNCT</r></p></e>
         </pardef>
         <pardef n="VERB">
             <e><p><l></l><r><s n="mi"/>VERB</r></p></e>
@@ -65,22 +71,22 @@
         </pardef>
         <pardef n="be__VERB">
             <e>
-                <p><l>was</l><r></r></p>
+                <p><l>was</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>were</l><r></r></p>
+                <p><l>were</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>was</l><r></r></p>
+                <p><l>was</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>were</l><r></r></p>
+                <p><l>were</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind|Number=Plur</r></p>
                 <par n="Person"/>
@@ -88,7 +94,7 @@
             </e>
 
             <e>
-                <p><l>being</l><r></r></p>
+                <p><l>being</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Imp|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -97,22 +103,22 @@
             </e>
 
             <e>
-                <p><l>am</l><r></r></p>
+                <p><l>am</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>are</l><r></r></p>
+                <p><l>are</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>is</l><r></r></p>
+                <p><l>is</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>are</l><r></r></p>
+                <p><l>are</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Plur</r></p>
                 <par n="Person"/>
@@ -120,7 +126,7 @@
             </e>
 
             <e>
-                <p><l>be</l><r></r></p>
+                <p><l>be</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -129,7 +135,7 @@
             </e>
 
             <e>
-                <p><l>been</l><r></r></p>
+                <p><l>been</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -138,7 +144,7 @@
             </e>
 
             <e>
-                <p><l>been</l><r></r></p>
+                <p><l>been</l><r>be</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -150,7 +156,7 @@
             <!-- Indicative -->
             <!-- Perfect -->
             <e>
-                <p><l>ed</l><r></r></p>
+                <p><l>ed</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -160,7 +166,7 @@
 
             <!-- Imperfect -->
             <e>
-                <p><l>ing</l><r></r></p>
+                <p><l>ing</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Imp|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -170,22 +176,22 @@
 
             <!-- Present -->
             <e>
-                <p><l>e</l><r></r></p>
+                <p><l>e</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>e</l><r></r></p>
+                <p><l>e</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>es</l><r></r></p>
+                <p><l>es</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
             </e>
             <e>
-                <p><l>e</l><r></r></p>
+                <p><l>e</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind|Number=Plur</r></p>
                 <par n="Person"/>
@@ -194,7 +200,7 @@
 
             <!-- Future Perfect -->
             <e>
-                <p><l>ed</l><r></r></p>
+                <p><l>ed</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -204,7 +210,7 @@
 
             <!-- Future -->
             <e>
-                <p><l>e</l><r></r></p>
+                <p><l>e</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -214,7 +220,7 @@
 
             <!-- Pluperfect -->
             <e>
-                <p><l>ed</l><r></r></p>
+                <p><l>ed</l><r>e</r></p>
                 <par n="VERB"/>
                 <p><l></l><r>|Mood=Ind</r></p>
                 <par n="Number"/>
@@ -224,16 +230,13 @@
 
             <!-- Participles -->
             <e>
-                <p><l>ed</l><r></r></p>
+                <p><l>ed</l><r>e</r></p>
                 <par n="VERB"/>
-                <p><l></l><r>|Aspect=Perf</r></p>
-                <par n="Number"/>
-                <p><l></l><r>|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
+                <p><l></l><r>|Aspect=Perf|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
             </e>
         </pardef>
         <pardef n="part__NOUN">
             <e>
-                <p><l></l><r></r></p>
                 <par n="NOUN"/>
                 <p><l></l><r>|Number=Sing</r></p>
             </e>
@@ -243,8 +246,15 @@
                 <p><l></l><r>|Number=Plur</r></p>
             </e>
         </pardef>
+        <pardef n="Belgae__NOUN">
+            <e>
+                <par n="NOUN"/>
+                <p><l></l><r>|Number=Plur</r></p>
+            </e>
+        </pardef>
         <pardef n="inhabit__VERB">
             <!-- Indicative -->
+            <!-- Active -->
             <!-- Perfect -->
             <e>
                 <p><l>ed</l><r></r></p>
@@ -319,13 +329,34 @@
                 <p><l></l><r>|Tense=Pqp|VerbForm=Fin|Voice=Act</r></p>
             </e>
 
+            <!-- Passive -->
+            <!-- Present -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pres|VerbForm=Fin|Voice=Pass</r></p>
+            </e>
+
             <!-- Participles -->
             <e>
                 <p><l>ed</l><r></r></p>
                 <par n="VERB"/>
-                <p><l></l><r>|Aspect=Perf</r></p>
-                <par n="Number"/>
-                <p><l></l><r>|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
+                <p><l></l><r>|Aspect=Perf|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
+            </e>
+        </pardef>
+        <pardef n="that__DET">
+            <e>
+                <p><l>at</l><r>at</r></p>
+                <par n="DET"/>
+                <p><l></l><r>|Number=Sing</r></p>
+            </e>
+            <e>
+                <p><l>ose</l><r>at</r></p>
+                <par n="DET"/>
+                <p><l></l><r>|Number=Plur</r></p>
             </e>
         </pardef>
     </pardefs>
@@ -337,11 +368,26 @@
         <e lm="into"><i>into</i><par n="ADP"/></e>
         <e lm="three"><i>three</i><par n="NUM"/></e>
         <e lm="part"><i>part</i><par n="part__NOUN"/></e>
-        <e lm="the"><i>the</i><par n="DET"/></e>
-        <e lm="first"><i>first</i><par n="ADJ"/></e>
+        <e lm=","><i>,</i><par n="PUNCT"/></e>
+        <e lm="one"><i>one</i><par n="DET"/></e>
         <e lm="of"><i>of</i><par n="ADP"/></e>
         <e lm="which"><i>which</i><par n="PRON"/></e>
-        <e lm="Gauls"><i>Gauls</i><par n="part__NOUN"/></e>
+        <e lm="the"><i>the</i><par n="DET"/></e>
+        <e lm="Belgae"><i>Belgae</i><par n="Belgae__NOUN"/></e>
         <e lm="inhabit"><i>inhabit</i><par n="inhabit__VERB"/></e>
+        <e lm="anohter"><i>another</i><par n="DET"/></e>
+        <e lm="Aquitanians"><i>Aquitanian</i><par n="part__NOUN"/></e>
+        <e lm="and"><i>and</i><par n="CCONJ"/></e>
+        <e lm="third"><i>third</i><par n="ADJ"/></e>
+        <e lm="that"><i>th</i><par n="that__DET"/></e>
+        <e lm="who"><i>who</i><par n="PRON"/></e>
+        <e lm="call"><i>call</i><par n="inhabit__VERB"/></e>
+        <e lm="Celts"><i>Celt</i><par n="part__NOUN"/></e>
+        <e lm="by"><i>by</i><par n="ADP"/></e>
+        <e lm="language"><i>language</i><par n="part__NOUN"/></e>
+        <e lm="themselves"><i>themselves</i><par n="PRON"/></e>
+        <e lm="Gauls"><i>Gaul</i><par n="part__NOUN"/></e>
+        <e lm="ours"><i>ours</i><par n="PRON"/></e>
+        <e lm="."><i>.</i><par n="PUNCT"/></e>
     </section>
 </dictionary>
