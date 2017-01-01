@@ -146,6 +146,188 @@
                 <p><l></l><r>|Tense=Pqp|VerbForm=Fin|Voice=Act</r></p>
             </e>
         </pardef>
+        <pardef n="divide__VERB">
+            <!-- Indicative -->
+            <!-- Perfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Imperfect -->
+            <e>
+                <p><l>ing</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Imp|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Present -->
+            <e>
+                <p><l>e</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>e</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>es</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>e</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Plur</r></p>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Future Perfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Future -->
+            <e>
+                <p><l>e</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Pluperfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pqp|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Participles -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf</r></p>
+                <par n="Number"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
+            </e>
+        </pardef>
+        <pardef n="part__NOUN">
+            <e>
+                <p><l></l><r></r></p>
+                <par n="NOUN"/>
+                <p><l></l><r>|Number=Sing</r></p>
+            </e>
+            <e>
+                <p><l>s</l><r></r></p>
+                <par n="NOUN"/>
+                <p><l></l><r>|Number=Plur</r></p>
+            </e>
+        </pardef>
+        <pardef n="inhabit__VERB">
+            <!-- Indicative -->
+            <!-- Perfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Imperfect -->
+            <e>
+                <p><l>ing</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Imp|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Present -->
+            <e>
+                <p><l></l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l></l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l>s</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+            <e>
+                <p><l></l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind|Number=Plur</r></p>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pres|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Future Perfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Future -->
+            <e>
+                <p><l></l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Fut|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Pluperfect -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Mood=Ind</r></p>
+                <par n="Number"/>
+                <par n="Person"/>
+                <p><l></l><r>|Tense=Pqp|VerbForm=Fin|Voice=Act</r></p>
+            </e>
+
+            <!-- Participles -->
+            <e>
+                <p><l>ed</l><r></r></p>
+                <par n="VERB"/>
+                <p><l></l><r>|Aspect=Perf</r></p>
+                <par n="Number"/>
+                <p><l></l><r>|Tense=Past|VerbForm=Part|Voice=Pass</r></p>
+            </e>
+        </pardef>
     </pardefs>
     <section id="main" type="standard">
         <e lm="all"><i>all</i><par n="ADJ"/></e>
