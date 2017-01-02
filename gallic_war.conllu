@@ -6,14 +6,14 @@
 6	three	three	NUM	_	_	7	nummod	_	_
 7	parts	part	NOUN	_	_	4	obl	_	_
 8	,	,	PUNCT	_	_	14	punct	_	_
-9	one	one	DET	_	_	11	det	_	_
+9	one	one	ADJ	_	_	11	det	_	_
 10	of	of	ADP	_	_	11	case	_	_
 11	which	which	PRON	_	_	14	obj	_	_
 12	the	the	DET	_	_	13	det	_	_
 13	Belgae	Belgae	NOUN	_	_	14	nsubj	_	_
 14	inhabit	inhabit	VERB	_	_	7	acl	_	_
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	another	another	DET	_	_	18	orphan	_	_
+16	another	another	ADJ	_	_	18	orphan	_	_
 17	the	the	DET	_	_	18	det	_	_
 18	Aquitanians	Aquitanian	NOUN	_	_	14	conj	_	_
 19	,	,	PUNCT	_	_	23	punct	_	_
