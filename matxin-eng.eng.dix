@@ -369,13 +369,13 @@
         <e lm="three"><i>three</i><par n="NUM"/></e>
         <e lm="part"><i>part</i><par n="part__NOUN"/></e>
         <e lm=","><i>,</i><par n="PUNCT"/></e>
-        <e lm="one"><i>one</i><par n="DET"/></e>
+        <e lm="one"><i>one</i><par n="ADJ"/></e>
         <e lm="of"><i>of</i><par n="ADP"/></e>
         <e lm="which"><i>which</i><par n="PRON"/></e>
         <e lm="the"><i>the</i><par n="DET"/></e>
         <e lm="Belgae"><i>Belgae</i><par n="Belgae__NOUN"/></e>
         <e lm="inhabit"><i>inhabit</i><par n="inhabit__VERB"/></e>
-        <e lm="anohter"><i>another</i><par n="DET"/></e>
+        <e lm="anohter"><i>another</i><par n="ADJ"/></e>
         <e lm="Aquitanians"><i>Aquitanian</i><par n="part__NOUN"/></e>
         <e lm="and"><i>and</i><par n="CCONJ"/></e>
         <e lm="third"><i>third</i><par n="ADJ"/></e>
